@@ -1,0 +1,82 @@
+{
+  "spacing": {
+    "6-xl": {
+      "$type": "number",
+      "$value": 156
+    },
+    "4-xl": {
+      "$type": "number",
+      "$value": 72
+    },
+    "5-xl": {
+      "$type": "number",
+      "$value": 100
+    },
+    "3-xl": {
+      "$type": "number",
+      "$value": 56
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 12
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 20
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 24
+    },
+    "2-xs": {
+      "$type": "number",
+      "$value": 2
+    },
+    "md": {
+      "$type": "number",
+      "$value": 16
+    },
+    "none": {
+      "$type": "number",
+      "$value": 0
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 8
+    },
+    "2-xl": {
+      "$type": "number",
+      "$value": 32
+    },
+    "base": {
+      "$type": "number",
+      "$value": 4
+    }
+  },
+  "radius": {
+    "round": {
+      "$type": "number",
+      "$value": 999
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 24
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 16
+    },
+    "md": {
+      "$type": "number",
+      "$value": 8
+    },
+    "base": {
+      "$type": "number",
+      "$value": 4
+    },
+    "none": {
+      "$type": "number",
+      "$value": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yuki-test3-strk-tokens",
+  "version": "1.0.1",
+  "description": "Design tokens for the Yuki-Starknet projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && node dist/process-tokens.js"
+  },
+  "author": "Yuki-Starknet",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.1.5",
+    "@types/node": "^20.4.9"
+  }
+}
