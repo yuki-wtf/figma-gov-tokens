@@ -1,7 +1,10 @@
+import fs from 'fs';
+import path from 'path';
 const foundationTokensImport = require('../src/foundation-light.json');
 const governanceTokensImport = require('../src/governance-alias.json');
 const standardSpacing = require('../src/spacing-tokens.standart.tokens.json');
 const condensedSpacing = require('../src/spacing-tokens.condensed.tokens.json');
+
 function convertToCamelOrLower(s: string): string {
   // If the string starts with a number, return all lowercase without hyphens
   if (s.charAt(0).match(/\d/)) {
@@ -18,10 +21,6 @@ function convertToCamelOrLower(s: string): string {
       .join('')
   );
 }
-import fs from 'fs';
-import path from 'path';
-
-// Define the function to map governance alias tokens to foundation tokens
 
 function flattenObject(obj: any): any {
   if (typeof obj !== 'object' || obj === null) {
@@ -38,7 +37,7 @@ function flattenObject(obj: any): any {
   }
   return flattened;
 }
-
+// Define the function to map governance alias tokens to foundation tokens
 function mapAliasToFoundation(
   governanceTokens: any,
   foundationTokens: any
@@ -201,7 +200,7 @@ fs.writeFileSync(
   tsInterfacesOutput
 );
 
-// Process the spacing tokens using a different variable name to avoid redeclaration
+// Process the spacing tokens using a different variable
 const processedSpacingTokensOutput = processSpacingTokens(
   standardSpacing,
   condensedSpacing
