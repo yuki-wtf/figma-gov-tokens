@@ -1,6 +1,6 @@
 {
-  "name": "yuki-test3-strk-tokens",
-  "version": "1.0.1",
+  "name": "figma-gov-tokens",
+  "version": "1.0.0",
   "description": "Design tokens for the Yuki-Starknet projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
